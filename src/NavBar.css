@@ -1,0 +1,50 @@
+
+nav {
+    align-items: center;
+    background-color: rgb(141, 141, 143);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 1em;
+  }
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+li {
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    font-size: 1.5em;
+    color: antiquewhite;
+  }
+  
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover{
+    color: rgb(16, 26, 32);
+  }
+nav ul li.active {
+    text-decoration: underline;
+  }
+#about-me{
+  text-align: center;
+}
+#about-me h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+#about-me p{
+  margin-left: 20%;
+  margin-right: 20%;
+}
